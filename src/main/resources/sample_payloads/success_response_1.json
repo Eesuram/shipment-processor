@@ -1,0 +1,16 @@
+{
+  "restrictedZipCodeRanges": [
+    {
+      "start": "94133",
+      "end": "94133"
+    },
+    {
+      "start": "94200",
+      "end": "94299"
+    },
+    {
+      "start": "94600",
+      "end": "94699"
+    }
+  ]
+}
