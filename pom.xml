@@ -7,7 +7,7 @@
     <groupId>com.nisum.shipment</groupId>
     <artifactId>shipment-processor</artifactId>
     <version>1.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
