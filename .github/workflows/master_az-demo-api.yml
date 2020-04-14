@@ -29,4 +29,4 @@ jobs:
         app-name: 'az-demo-api'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_12ead70e77614d6295b6e09ea13104e8 }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '${{ github.workspace }}/target/*.jar'
