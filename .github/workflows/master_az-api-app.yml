@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy WAR app to Azure Web App - az-api-app
+name: Build and deploy WAR app to Azure Web App - az-demo-api
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'az-api-app'
+        app-name: 'az-demo-api'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_eec0dda200814eabaf6ffc1bc53d87b0 }}
         package: '${{ github.workspace }}/target/*.jar'
